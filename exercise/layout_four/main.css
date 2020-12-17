@@ -1,0 +1,81 @@
+/*the background color is gradient from cyan to white*/
+body{
+    background-image: linear-gradient(rgba(157, 255, 255, 0.589), #f1f1f1);
+}
+
+
+/*===============
+Element Selection
+===============*/
+nav{
+    background-color: rgb(41, 40, 43);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition-duration: 0.5s; /*to have smooth move when coursor is removed from item*/
+}
+
+nav a:hover{/*when coursr is on the item*/
+    text-shadow: 1px 1px 10px rgba(120, 192, 192, 0.589);
+    color: cyan;
+    transition-duration: 0.5s; /*to have smooth move when coursor is over the item*/
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 10px rgb(48, 53, 63);
+}
+
+ul li{
+    padding: 3px;
+}
+
+/*===============
+Class Selection
+===============*/
+.logo{
+    width: 40px;
+    height: 20px;
+}
+
+.bg-color{/*the backgounr color for each section*/
+    background-color: rgba(128, 128, 128, 0.13);
+    padding: 5px;
+    margin: 3px;
+}
+
+.border{
+    border-radius: 5px;
+}
+
+.bold{ /*to have semi-bold titels inside each article*/
+    font-weight: 600;
+}
+
+/*this is to style the icons on contact me secion*/
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-size{ 
+    width: 30px;
+    height: 20px;
+    padding-bottom: 20px;
+    transition-duration: 1s;
+
+}
+
+.icon-size:hover{/*when coursr is on the item*/
+    width: 40px;
+    height: 30px;
+    transition-duration: 1s;
+}
