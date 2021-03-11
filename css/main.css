@@ -35,6 +35,7 @@ body {
 .profile {
     width: 60vw;
     height: 70vh;
+    border-radius: 5px;
 }
 
 h2 {
