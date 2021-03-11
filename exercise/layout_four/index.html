@@ -1,70 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Layout Four - Portfolio</title>
-        <link rel="stylesheet" href="main.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <title>Portfolio</title>
     </head>
 
     <body>
-        <div >
-            <nav class="border">
-                <img src="Moudi Khalid.png" alt="logo" class="logo border">
-                <a href="#about-me">About Me</a>
-                <a href="#skills">Skills</a>
-                <a href="#Experiences-and-cources">Experiences and Courses</a>
-                <a href="#contact">Contact Me</a>
+        <div>
+            <h1 class="brand-name">Moudi Khalid</h1>
+            <nav class="nav">
+                <a href="#About">About</a> 
+                <a href="#Skills">Skills</a> 
+                <a href="#Experiences">Experiences</a> 
+                <a href="#Contact">Contact</a> 
             </nav>
-
+            <div>
+                <img class="profile" src="image/profile-programming.jpg" alt="">
+            </div>
             <main>
-                <article id="about-me" class="bg-color border">
-                    <h1>About Me</h1>
-                    <p>My name is Moudi Khalid Aldargham
-                    <br><br>
-                    In  May 2020, I got my bachelor degree in Information Technology of Networks and Communication System from <span title="Princess Nourah Universtiy">PNU</span> with GPA 4.43 out of 5.</p>
+                <article>
+                    <h2 id="About">About</h2>
+                    <hr class="under-title">
+                    <p>
+                        My name is Moudi Khalid 
+                        <br><br>
+                        In May 2020, I got my bachelor degree in Information Technology of Networks and Communication System from <span title="Princess Nourah Universtiy">PNU</span> with GPA 4.43 out of 5.
+                        <br><br>
+                        I'm an insightful programmer with a background in Java programming language and full-stack web development. Passionate about turning thoughts and ideas into reality. Offering logical and efficient solutions.
+                    </p>
                 </article>
 
-                <article id="skills" class="bg-color border">
-                    <h1>Skills</h1>
-                    <p>I have many skills that can support me finding programmer job : </p>
-
-                    <p class="bold">Personal Skills</p>
-                    <ul>
-                        <li>Organized person</li>
-                        <li>Time management</li>
-                        <li>Flexable person</li>
-                    </ul>
-
-                    <p class="bold">Technical Skills</p>
-                    <ul>
-                        <li>Java programming</li>
-                        <li>Font-end developer</li>
-                    </ul>
+                <article>
+                    <h2 id="Skills">Skills</h2>
+                    <hr class="under-title">
+                    <ol>
+                        <li>Personal Skills
+                            <ul>
+                                <li>Organized person</li>
+                                <li>Time management</li>
+                                <li>Flexable person</li>
+                                <li>Work under-pressure</li>
+                            </ul>
+                        </li>
+                        <li>Technical Skills
+                            <ul>
+                                <li>GitHub</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>Bootstrap</li>
+                                <li>Java</li>
+                                <li>MySQL</li>
+                                <li>Spring-boot</li>
+                                <li>React</li>
+                            </ul>
+                        </li>
+                    </ol>
                 </article >
 
-                <article class="bg-color border" id="Experiences-and-cources">
-                    <h1>Experiences and Cources</h1>
-                    <p class="bold">Cources</p>
+                <article>
+                    <h2 id="Experiences">Experiences</h2>
+                    <hr class="under-title">
                     <ul>
-                        <li>CCNA - Cisco</li>
-                        <li>Introduction to Cyber Security - Cisco</li>
-                    </ul>
-                    
-                    <p class="bold">Experiences</p>
-                    <ul>
-                        <li>A volunteer in student employment program for three months in <span title="Princess Nourah Universtiy">PNU</span></li>
-                        <li>Volunteer to provide lessons in the Java programming language in the Programming Club in <span title="Princess Nourah Universtiy">PNU</span></li>
+                        <li>Java Web Development - <span title="General Assembly">GA</span>, 2021</li>
+                        <li>CCNA - Cisco, 2019</li>
+                        <li>A volunteer in student employment program for three months - <span title="Princess Nourah Universtiy">PNU</span>, 2018</li>
+                        <li>A volunteer to provide lessons in the Java programming language in the Programming Club - <span title="Princess Nourah Universtiy">PNU</span>, 2018</li>
                     </ul>
                 </article>   
-                
             </main>
 
-            <footer class="bg-color broder">
-                <h1 id="contact">Contant Me</h1>
+            <footer>
+                <h2 id="Contact">Contant</h2>
                 <br>
-                <div class="images">
-                    <a traget="_blanck" href="http://twitter.com/"><img src="Twitter.png" alt="Twitter account" class="icon-size"></a>
-                    <a traget="_blanck" href="http://LinkedIn.com"><img src="linkedIn.png" alt="LinkedIn account" class="icon-size"></a>
-                    <a traget="_blanck" href="mailto:Moudi_Khalid96@hotmail.com"><img src="email.jpg" alt="E-mail" class="icon-size"></a>
+                <div>
+                    <hr>
+                    <a target="_blank" href="https://github.com/MoudiKhalid96"><img class="icon" src="image/GitHub.jpg" alt="GitHub"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/moudi-khalid/"><img class="icon" src="image/linkedin.png" alt="Linkedin"></a>
+                    <a target="_blank" href="mailto:Moudi_Khalid96@hotmail.com"><img class="icon" src="image/email.jpg" alt="E-Mail"></a>
+                    <hr>
+                    <p>
+                    <img src="image/copyright.png" alt="copyright" id="copyright"> 2020 - Moudi Khalid
+                    </p>
                 </div>
             </footer>
         </div>

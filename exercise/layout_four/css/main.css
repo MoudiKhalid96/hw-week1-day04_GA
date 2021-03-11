@@ -1,0 +1,84 @@
+body {
+    margin: 5vh 10vw;
+    padding: 1vh 2vw;
+    text-align: center;
+}
+
+.brand-name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(98, 146, 181);
+    letter-spacing: 0rem;
+}
+
+.nav {
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    margin: 3%;
+}
+
+.nav>a {
+    text-decoration: none;
+    margin: 2%;
+    color: black;
+    transition: 0.3s;
+}
+
+.nav>a:hover {
+    text-shadow: 0 0 10px rgb(98, 146, 181);
+    color: rgb(99, 98, 98);
+    transition: 0.3s;
+}
+
+.profile {
+    width: 60vw;
+    height: 70vh;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 0.3rem
+}
+
+.under-title {
+    width: 40%;
+    height: 10%;
+    background-color: #000;
+    text-align: left;
+}
+
+article {
+    text-align: left;
+    margin: 5%;
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 25px;
+    padding: 3%;
+    background-image: url(../image/bg-img.png);
+}
+
+ol>li {
+    padding: 2%;
+}
+
+ul>li {
+    padding: 1%;
+}
+
+li,
+p {
+    color: rgb(83, 83, 83);
+}
+
+.icon {
+    width: 2.5%;
+    height: 2.5%;
+    /* (top and bottom) (left and right) */
+    margin: 3% 1%;
+}
+
+#copyright {
+    width: 12px;
+    height: 12px
+}
