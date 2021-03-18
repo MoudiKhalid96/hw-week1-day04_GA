@@ -1,4 +1,5 @@
 ## HTML & CSS Homework Week2 Homework6
+<small style="color: gray">This was HW from <span title="General Assembly">GA</span></small>
 # Requirement: Design your portfolio by following any one of the below mentioned styles.
 
 # Portfolio
